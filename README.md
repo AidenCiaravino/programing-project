@@ -10,3 +10,4 @@ Checkers clone
 ### GUI Mockup 3
 
 ### Class diagram
+![Class diagram](https://github.com/AidenCiaravino/programing-project/blob/main/images/Checkers%20class%20diagram.drawio.png?raw=true)
