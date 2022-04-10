@@ -17,7 +17,7 @@
 ## Space Invaders Clone
 
 ### GUI Mockup 1
-![startscreen](images/Startscreenlaser.png)
+![startscreen](images/STartscreenreal.png)
 ### GUI Mockup 2
 ![Alien](images/)
 ### GUI Mockup 3
