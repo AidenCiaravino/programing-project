@@ -23,4 +23,4 @@
 ### GUI Mockup 3
 ![endscreen](images/)
 ### Class diagram
-![Class Diagram](images/
+![Class Diagram](images/EndScreenaliens.png)
