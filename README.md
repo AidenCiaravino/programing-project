@@ -1,7 +1,7 @@
 # programing-project
 2 programing projects for consideration
 ## Project idea #1
-Flappy Bird clone
+## Flappy Bird clone
 
 ### GUI Mockup 1
 ![startscreen](images/Startscreenflappy.png)
@@ -11,3 +11,16 @@ Flappy Bird clone
 ![endscreen](images/Endscreenflappy.png)
 ### Class diagram
 ![Class Diagram](images/Flappybird.png)
+
+
+## Project idea #2
+## Space Invaders Clone
+
+### GUI Mockup 1
+![startscreen](images/)
+### GUI Mockup 2
+![Alien](images/)
+### GUI Mockup 3
+![endscreen](images/)
+### Class diagram
+![Class Diagram](images/
