@@ -8,6 +8,6 @@ Flappy Bird clone
 ### GUI Mockup 2
 ![flappybird](images/Flappybirdimage.png)
 ### GUI Mockup 3
-![endscreen]()
+![endscreen](images/Endscreenflappy.png)
 ### Class diagram
 ![Class Diagram](images/Flappybird.png)
