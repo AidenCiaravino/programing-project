@@ -10,4 +10,4 @@ Flappy Bird clone
 ### GUI Mockup 3
 
 ### Class diagram
-![Class Diagram](Flappybird.png)
+![Class Diagram](images/Flappybird.png)
