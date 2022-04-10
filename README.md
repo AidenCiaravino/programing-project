@@ -4,7 +4,7 @@
 Flappy Bird clone
 
 ### GUI Mockup 1
-![startscreen]()
+![startscreen](images/Startscreenflappy.png)
 ### GUI Mockup 2
 ![flappybird](images/Flappybirdimage.png)
 ### GUI Mockup 3
