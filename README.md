@@ -19,7 +19,7 @@
 ### GUI Mockup 1
 ![startscreen](images/STartscreenreal.png)
 ### GUI Mockup 2
-![Alien](images/)
+![Alien](images/GAMEboard.png)
 ### GUI Mockup 3
 ![endscreen](images/)
 ### Class diagram
