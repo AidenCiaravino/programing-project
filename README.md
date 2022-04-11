@@ -21,6 +21,6 @@
 ### GUI Mockup 2
 ![Alien](images/GAMEboard.png)
 ### GUI Mockup 3
-![endscreen](images/)
+![endscreen](images/EndScreenaliens.png)
 ### Class diagram
-![Class Diagram](images/EndScreenaliens.png)
+![Class Diagram](images/)
