@@ -27,3 +27,4 @@ class Laser {
       return false;
     }
   }
+}
