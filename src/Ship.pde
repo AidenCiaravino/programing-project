@@ -10,7 +10,7 @@ class Ship {
     y = 0;
     w = 80;
     health = 100;
-    laserCount = 500;
+    laserCount = 50000;
     alive = true;
     ship = loadImage("Cannon.png");
   }
@@ -18,7 +18,7 @@ class Ship {
   // member variables
   void display(int x, int y) {
     this.x = x;
-    this.y = y;
+    this.x = x;
     imageMode(CENTER);
     ship.resize(80, 80);
     image(ship, x, y);
