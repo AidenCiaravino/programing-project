@@ -1,10 +1,15 @@
+Ship s1;
 ArrayList<Star> stars = new ArrayList<Star>();
+ArrayList<Laser> lasers = new ArrayList<Laser>();
 int score, starCount, health;
 boolean play;
 PImage logo;
 
 void setup() {
   size(1000, 1000);
+  s1 = new Ship();
+  score = 0;
+  health = 100;
   logo = loadImage("logo2.png");
   starCount = 100;
   play = false;
@@ -17,13 +22,26 @@ void draw() {
   stars.add(new Star());
   if (!play) {
     startScreen();
-  }
-  for (int i = 0; i < stars.size(); i++) {
-    Star star = stars.get(i);
-    star.display();
-    star.move();
-    if (star.reachedBottom()) {
-      stars.remove(star);
+  } else {
+    s1.display(mouseX, 900);
+    if (s1.health < 1) {
+      noLoop();
+    }
+    for (int i = 0; i < stars.size(); i++) {
+      Star star = stars.get(i);
+      star.display();
+      star.move();
+      if (star.reachedBottom()) {
+        stars.remove(star);
+      }
+    }
+    for (int i = 0; i < lasers.size(); i++) {
+      Laser laser = lasers.get(i);
+      laser.display();
+      laser.move();
+      if (laser.reachedTop()) {
+        lasers.remove(laser);
+      }
     }
   }
 }
@@ -37,7 +55,7 @@ void infoPanel() {
 }
 void startScreen() {
   background(0);
-  image(logo, 500, 500);
+  image(logo, 320, 0);
   textAlign(CENTER);
   fill(255);
   textSize(45);
@@ -52,4 +70,7 @@ void startScreen() {
 }
 
 void mousePressed() {
+  if (s1.fire()) {
+  }
+  s1.laserCount --;
 }
