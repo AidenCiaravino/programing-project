@@ -1,3 +1,4 @@
+// By Aiden Ciaravino period A1
 Ship s1;
 ArrayList<Star> stars = new ArrayList<Star>();
 ArrayList<Laser> lasers = new ArrayList<Laser>();
@@ -20,13 +21,12 @@ void draw() {
   noCursor();
   infoPanel();
   stars.add(new Star());
+
   if (!play) {
     startScreen();
   } else {
-    s1.display(mouseX, 900);
-    if (s1.health < 1) {
-      noLoop();
-    }
+
+
     for (int i = 0; i < stars.size(); i++) {
       Star star = stars.get(i);
       star.display();
@@ -43,6 +43,11 @@ void draw() {
         lasers.remove(laser);
       }
     }
+    s1.display(mouseX, 900);
+    if (s1.health < 1) {
+      gameOver();
+      noLoop();
+    }
   }
 }
 void infoPanel() {
@@ -52,6 +57,7 @@ void infoPanel() {
   fill(255, 200);
   textSize(18);
   textAlign(CENTER);
+  text("score:" + score + "    Health" + health + "    Ammo:" + s1.laserCount, width/2, 30);
 }
 void startScreen() {
   background(0);
@@ -68,9 +74,22 @@ void startScreen() {
     play = true;
   }
 }
+void gameOver() {
+  image(logo, 320, 0);
+  background(0);
+  textAlign(CENTER);
+  fill(255);
+  textSize(46);
+  text("Game Over!!!", width/2, height/2);
+  text("Final Score:" + score, width/2, height/2+35);
+  text("Aliens defeated:" + score, width/2, height/2+70);
+}
 
 void mousePressed() {
   if (s1.fire()) {
   }
   s1.laserCount --;
+}
+
+void keyPressed() {
 }
