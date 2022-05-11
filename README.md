@@ -9,4 +9,4 @@
 ### GUI Mockup 3
 ![endscreen](images/EndScreenaliens.png)
 ### Class diagram
-![Class Diagram](starinvad.png)
+![Class Diagram](images/starinvad.png)
