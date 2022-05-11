@@ -1,4 +1,3 @@
-
 class Alien {
   PImage logo;
   int x, y, speed, rand, diam, health;
