@@ -3,7 +3,7 @@
 ## Space Invaders Clone
 
 ### GUI Mockup 1
-![startscreen](images/Screen Shot 2022-04-15 at 9.05.55 AM.png)
+![startscreen](images/)
 ### GUI Mockup 2
 ![Alien](images/GAMEboard.png)
 ### GUI Mockup 3
