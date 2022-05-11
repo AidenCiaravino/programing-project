@@ -5,7 +5,7 @@
 ### GUI Mockup 1
 ![startscreen](images/start.png)
 ### GUI Mockup 2
-![Alien](images/space invaders clone.png)
+![Alien](images/sic.png)
 ### GUI Mockup 3
 ![endscreen](images/EndScreenaliens.png)
 ### Class diagram
