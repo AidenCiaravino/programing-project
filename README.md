@@ -7,6 +7,6 @@
 ### GUI Mockup 2
 ![Alien](images/sic.png)
 ### GUI Mockup 3
-![endscreen](images/EndScreenaliens.png)
+![endscreen](images/endscr.png)
 ### Class diagram
 ![Class Diagram](images/starinvad.png)
