@@ -2,7 +2,7 @@
 # By Aiden Ciaravino
 ## Space Invaders Clone
 
-I added more polished alien ovment and made the aliens die after 2 hits instead of 1.
+I added more polished alien movement and made the aliens die after 2 hits instead of 1.
 
 ### GUI Mockup 1
 ![startscreen](images/start.png)
