@@ -4,6 +4,8 @@
 
 I added more polished alien movement and made the aliens die after 2 hits instead of 1.
 
+Game is not completed yet, there is no level system.
+
 ### GUI Mockup 1
 ![startscreen](images/start.png)
 ### GUI Mockup 2
